@@ -6,6 +6,8 @@ const app = express ();
 
 const PORT = 3030;
 
+app.use(express.static('public'));
+
 //rutas
 
 app.get (`/`, (req, res) => {

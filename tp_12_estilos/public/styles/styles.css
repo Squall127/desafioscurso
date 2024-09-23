@@ -1,0 +1,52 @@
+@import url('./variables.css');
+
+body {
+    background-color: var(--color-amarillo);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#barra-de-busqueda {
+    background-color: var(--color-gris-claro);
+    color: var(--color-gris-oscuro);
+    padding: 3px;
+    border: solid 1px var(--color-gris-oscuro);
+    align-items: left;
+}
+
+.header--inicio-logo {
+    width: 50%;
+    margin-inline: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.header--inicio-lupa i{
+    background-color: var(--color-gris-claro);
+    color: var(--color-gris-oscuro);
+    padding: 10px;
+    border-radius: 2px; 
+    margin-top: 10px;
+    font-size: 0.8rem;
+};
+
+.header--inicio-line a{
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+}
+
+.burger-menu i{
+    background-color: var(--color-azul);
+    color: var(--color-gris-claro);
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.header--nav ul{
+    text-align: left;
+    list-style: none;
+}

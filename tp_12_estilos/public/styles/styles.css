@@ -1,52 +1,88 @@
 @import url('./variables.css');
+@import url('./general.css');
 
 body {
-    background-color: var(--color-amarillo);
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
 }
 
-#barra-de-busqueda {
+header {
+    background-color: var(--color-amarillo);
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.header-barra {
     background-color: var(--color-gris-claro);
     color: var(--color-gris-oscuro);
     padding: 3px;
     border: solid 1px var(--color-gris-oscuro);
     align-items: left;
+    display:inline-block;
+    margin: 0 0 2px 15px;
 }
 
-.header--inicio-logo {
+.header-logo {
     width: 50%;
     margin-inline: 10px;
-    margin-top: 10px;
     margin-bottom: 20px;
+    padding-top:15px;
 }
 
-.header--inicio-lupa i{
-    background-color: var(--color-gris-claro);
-    color: var(--color-gris-oscuro);
-    padding: 10px;
-    border-radius: 2px; 
-    margin-top: 10px;
-    font-size: 0.8rem;
-};
-
-.header--inicio-line a{
+.header-cabeza {
     text-align: center;
-    padding: 10px;
-    border: 10px;
+    display:block;
 }
 
-.burger-menu i{
+.header-lista ul{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.burger-menu {
     background-color: var(--color-azul);
     color: var(--color-gris-claro);
-    margin-top: 15px;
+    margin: 0 auto;
     padding: 10px;
     border-radius: 5px;
-    font-size: 0.8rem;
+    font-size: 24px;
+    width: 24px;
+    text-align: center;
 }
 
-.header--nav ul{
-    text-align: left;
+.header-lista{
+    display: inline-block;
+    justify-content: left;
+    width: 100%;
+}
+
+.header-lista nav ul{
     list-style: none;
+    padding: 0;
+}
+
+.header-lista a{
+    text-decoration: none;
+}
+
+main {
+    background-color: var(--color-gris-claro);
+}
+
+footer {
+    background-color: #ffff;
+    text-align: center;
+    display:block;
+    padding: 50px 50px 0;
+}
+
+.footer-section {
+    margin-bottom: 50px;
+}
+
+.footer-section i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--color-azul)
 }
